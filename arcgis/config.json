@@ -1,0 +1,8 @@
+{
+	"mongodbUrl": "mongodb://localhost:27017/",
+	"dbName": "epmTest",
+	"dataFileExtension": ".data",
+	"proPyBatPath": "C:/\"Program Files\"/ArcGIS/Pro/bin/Python/Scripts/propy.bat",
+	"pyScriptName": "main.py",
+	"dataFileDirectory": "./arcgis"
+}

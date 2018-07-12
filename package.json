@@ -1,0 +1,43 @@
+{
+  "name": "epm-test0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "C:\\\"Program Files\"\\MongoDB\\Server\\3.6\\bin\\mongod.exe --dbpath \"C:\\data\\mongodb\\db\" && nodemon --exec npm run babel-node -- ./bin/www",
+    "babel-node": "babel-node --presets=env",
+    "build": "babel src -d dist",
+    "arcProPropyBat": "C:\\\"Program Files\"\\ArcGIS\\Pro\\bin\\Python\\Scripts\\propy.bat",
+    "loader": "npm run babel-node -- ./arcgis/loader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencel/epm-test0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencel/epm-test0/issues"
+  },
+  "homepage": "https://github.com/spencel/epm-test0#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "byline": "^5.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "line-by-line": "^0.1.6",
+    "mongodb": "^3.1.0-beta4",
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.5"
+  }
+}
